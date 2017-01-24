@@ -29,6 +29,10 @@ a.navbar{
 	background-color: #F1F1F1;
 }
 
+#main-info h1 {
+	color: #3793DC;
+}
+
 #blockname-1 {
 	text-align: center;
 	padding-top: 20px;
@@ -48,6 +52,7 @@ a.navbar{
 #footer {
 	background-color: #F1F1F1;
 	border-top: 1px solid #D8D8D8;
+	padding-bottom: 20px;
 }
 
 #subscribe {
@@ -56,17 +61,25 @@ a.navbar{
 	margin-bottom: 10px;
 }
 
-#footer, h3 {
+#footer h3 {
 	color: #3793D9; 
 }
-#footer, ul {
+
+#footer ul {
 	list-style-type: none;
 	padding: 0px;
 }
 
-#footer, a {
+#footer a {
 	color: #394755;
-	padding-bottom: 20px;
+}
+
+#footer a:hover {
+    -webkit-animation-name: slide;    
+    -moz-animation-name: slide;    
+    -o-animation-name: slide;    
+    animation-name: slide;    
+    text-decoration: underline;
 }
 
 #copywrite {
@@ -80,6 +93,24 @@ a.navbar{
 	text-align: right;
 }
 
-.col-md-offset-5>a{
+.col-md-offset-5 a{
 	color: #D6DFE5;
+}
+
+.animated, .animated a {
+    -webkit-animation-fill-mode: both;    
+    -moz-animation-fill-mode: both;    
+    -ms-animation-fill-mode: both;    
+    -o-animation-fill-mode: both;    
+    animation-fill-mode: both;    
+    -webkit-animation-duration: 0.2s;    
+    -moz-animation-duration: 0.2s;    
+    -ms-animation-duration: 0.2s;    
+    -o-animation-duration: 0.2s;    
+    animation-duration: 0.2s;    
+    -webkit-transition: all .2s linear;    
+    -moz-transition: all .2s linear;    
+    -ms-transition: all .2s linear;    
+    -o-transition: all .2s linear;    
+    transition: all .2s linear;
 }
